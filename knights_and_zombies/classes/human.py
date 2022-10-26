@@ -13,3 +13,9 @@ class Human:
         print(f"{target.name} took {self.strength} damage")
         print(f"{target.name} health is at {target.health}")
 
+    # TODO
+    # basic attack kinda sucks
+    #   remove and add functionality elsewhere
+    # plus prints aren't pretty
+    # if zombies get more variety, human class is only inherited by the knight
+

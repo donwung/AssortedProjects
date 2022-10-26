@@ -19,3 +19,8 @@ class Knight(Human):
         target.health -= self.strength
         print(f"{target.name} took {self.strength} damage")
         print(f"{target.name} health is at {target.health}")
+
+    # TODO
+    # add more actions
+    #   maybe make actions an object to more readily access specialized functions
+    #

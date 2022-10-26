@@ -36,12 +36,9 @@ while(knight_guy.health > 0):
 
 print(f"{knight_guy.name} has died")
 
-
-
-# knight_guy.name_str();
-# zomb.show_name()
-
-
-
-# knight_guy.attack(zomb)
-# zomb.attack(knight_guy)2
+# TODO
+# this big while loop GIGA sucks
+#   it's too hard to read
+#   it can definitely be condensed into more flexible functions
+#       zomb.attack can also be called "in retaliation" as opposed to sequentially in an if() statement
+# needs better math difficulty scaling

@@ -17,3 +17,7 @@ class Zombie(Human):
         target.health -= dmg
         print(f"{target.name} took {dmg} damage")
         print(f"{target.name} health is at {target.health}")
+
+    # TODO
+    # maybe add more variety to enemy types
+    # maybe a separate zombie object with variety inheriting from zombie class?
